@@ -5,8 +5,8 @@ int find(int num)
 {
     int first, second;
         
-        first = num * num;
-        second = first + num;
+    first = num * num;
+    second = first + num;
 
     if (second > 100)
         num = first / 10;
@@ -39,4 +39,5 @@ int main()
     cout << "d. " << discover(y, x) << endl;
 
     return 0;
+
 }
